@@ -1,0 +1,9 @@
+h3{
+    color: tomato;
+}
+.p-1{
+    color: dodgerblue;
+}
+.p-1 + p{
+    color: mediumseagreen;
+}
