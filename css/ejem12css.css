@@ -1,0 +1,15 @@
+.tomato{
+    background-color: rgb(255, 99, 71);
+}
+.tomato + h1{
+    background-color: #ff6347;
+}
+.tomato-2{
+    background-color: hsl(9, 100%, 64%);
+}
+.tomato-3{
+    background-color: rgba(255, 99, 71,0.5);
+}
+.tomato-3 + h1{
+    background-color: hsla(9, 100%, 64%,0.5);
+}

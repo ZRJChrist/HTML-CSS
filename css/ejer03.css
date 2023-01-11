@@ -1,0 +1,12 @@
+.h1-1{
+    color: red;
+}
+.h1-1 + h1{
+    color: black;
+}
+.h1-1 + h3{
+    color: blue;
+}
+.text-1{
+    color: red;
+}
