@@ -1,0 +1,10 @@
+.text-1{
+    color: red;
+}
+body{
+    background-image: url("https://openclipart.org/download/340364/earthglobe-pdai.svg");
+    background-repeat: no-repeat;
+    background-position:top right;
+    /*background-position: center center*/;
+    /*background-position:75% 50%;*/
+}
