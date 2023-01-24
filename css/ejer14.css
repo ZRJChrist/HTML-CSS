@@ -1,0 +1,16 @@
+h1{
+    background-color: rgb(143, 204, 204);
+    width: 300px;
+    margin: auto;
+
+}
+.text1{
+    background-color: rgb(143, 204, 204);
+    padding: 25px 50px;
+
+}
+.text1 + p{
+    background-color: rgb(143, 204, 204);
+    padding: 50px;
+
+}
