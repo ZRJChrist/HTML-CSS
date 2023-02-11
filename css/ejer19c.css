@@ -7,7 +7,7 @@ div{
 #c1{
     z-index: 1;
     background-color: green;
-    left: 0;
+    left: 0 ;
 }
 #c2{
     z-index: 2;
