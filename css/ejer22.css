@@ -1,0 +1,12 @@
+div{
+    width: 300px;
+    border: 1px gray dashed;
+    padding: 1em;
+    margin: 1em 0 1em 4em;
+}
+
+div img{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

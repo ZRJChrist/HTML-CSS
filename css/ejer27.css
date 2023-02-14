@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    width: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 0.15em;
+    margin-bottom: 20px;
+}
+div{
+    width: 500px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 0.35em;
+    margin-bottom: 20px;
+}
+img{
+    width: 150px;
+    display: inline;
+    float: left;
+}
+.img_right{
+    float:right;
+}
