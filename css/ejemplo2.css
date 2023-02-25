@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #ffff00;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul{
+    border: 1px black solid;
+}
+nav li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}

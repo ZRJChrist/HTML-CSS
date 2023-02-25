@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+}
+span.a{
+    display:  inline;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #ffe666;
+}
+span.b{
+    display:  inline-block;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #ffe666;
+}
+span.c{
+    display:  block;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #ffe666;
+}
