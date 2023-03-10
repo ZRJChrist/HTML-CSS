@@ -145,6 +145,13 @@ header{
     .main-content .div-logo #logo{
         max-width: 70%;
     }
+    .background .recurso2{
+        bottom: -300px;
+    }
+    .background .recurso4{
+        top: 8em;
+    }
+
 }
 @media (max-width: 630px) {
     header{
@@ -154,31 +161,51 @@ header{
         bottom: -1px;
     }
 }
-#recurso1{
+.recurso1{
     position: absolute;
     top: 5em;
     width: 150px;
 }
-#recurso2{
+.recurso2{
     position: absolute;
     bottom: 1.2em;
     left: 2em;
     width: 550px;
 }
-#recurso3{
+.recurso3{
     position: absolute;
     bottom: 15em;
     left: 35em;
     width: 150px;
+    animation: recurso3-rot 15s infinite;
+    -webkit-animation: recurso3-rot 15s infinite;
 }
-#recurso4{
+.recurso4{
     position: absolute;
     top: 10em;
     right: 2em;
-    width: 150px;}
-#recurso5{
+    width: 150px;
+}
+.recurso5{
     position: absolute;
     bottom: 2em;
     right: 2em;
     width: 150px;
+}
+@keyframes recurso3-rot {
+    to{
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+}
+    from{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+    
 }
