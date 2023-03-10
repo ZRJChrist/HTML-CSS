@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background:#d6227d url(img/background.png);
+    background:#d6227d;
     /* #0091eb */
     background-repeat: no-repeat;
     background-size: 91%;
@@ -153,4 +153,32 @@ header{
     .navigation a::after{
         bottom: -1px;
     }
+}
+#recurso1{
+    position: absolute;
+    top: 5em;
+    width: 150px;
+}
+#recurso2{
+    position: absolute;
+    bottom: 1.2em;
+    left: 2em;
+    width: 550px;
+}
+#recurso3{
+    position: absolute;
+    bottom: 15em;
+    left: 35em;
+    width: 150px;
+}
+#recurso4{
+    position: absolute;
+    top: 10em;
+    right: 2em;
+    width: 150px;}
+#recurso5{
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+    width: 150px;
 }
